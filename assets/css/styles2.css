@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.section-container {
+    /* }{3 kak po drugomy sdelatb */
+    display: flex; 
+}
+
+ .gray {
+    background-color: rgb(80, 78, 78); 
+    width: 5vw;
+    min-height: 168.5vh; /* <<== */
+    height: 100%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.brief-information-block {
+    background-color: rgb(172, 163, 163); 
+    width: 25vw;
+    min-height: 168.5vh; /* <<== */
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.photo {
+    width: 80%;
+    height: 30vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.information-main {
+    margin-top: 10%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.information-full {
+    width: 65vw;
+    height: 100vh;
+}
+
+.wrapper {
+    margin-top: 1.5%;
+    margin-top: 6%;
+}
+
+.text {
+    margin-bottom: 2%;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+
+.bolder {
+    font-weight: bolder;
+    font-size: 14.5px;
+}
+
+.mt {
+    margin-top: 6%;
+}
+
+.worker-title {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.job-title {
+    color: grey;
+    margin-top: 1%;
+    margin-left: 3%;
+    font-weight: bold;
+}
+
+.underline {
+    /* Свойство text-decoration-thickness CSS задает толщину или ширину декоративной линии, 
+    используемой для текста в элементе, например как сквозная строка, подчеркивание или надпись. */
+
+    text-decoration: underline;
+    text-decoration-color: grey;
+    text-decoration-thickness: 3px;
+}
+
+.profile {
+    margin-top: 4%;
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+}
+
+.profile-text {
+    margin-top: 2%;
+    margin-left: 3.5%;
+}
+
+.career-title {
+    display: flex;
+}
+
+.ml {
+    margin-left: 4%;
+}
+
+.mt-skills {
+    margin-top: 3%;
+}
+
+.ml-career {
+    margin-left: 20%;
+}
+
+.strong {
+    /* я знаю про существование тега <strong>, но с ним почему-то не работает */
+
+    font-weight: bold;
+}
+
+table {
+    border-spacing:  0 2.5vh;
+}
+
+table th {
+    width: 13vw;
+    text-align: left;
+}
